@@ -124,8 +124,8 @@
             dialogService = new DialogService();
             navigationService = new NavigationService();
 
-            Email = "jzuluaga55@gmail.com";
-            Password = "123456";
+            Email = "franciscojcc@gmail.com";
+            Password = "xpacox1087";
 
             IsEnabled = true;
             IsToggled = true;

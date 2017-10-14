@@ -7,7 +7,7 @@
     using Products1.Backend.Models;
     using Products1.Domain;
 
-    [Authorize(Users = "jzuluaga55@gmail.com")]
+    [Authorize]
     public class CategoriesController : Controller
     {
         private DataContextLocal db = new DataContextLocal();
