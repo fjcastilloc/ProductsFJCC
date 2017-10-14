@@ -215,7 +215,7 @@
 			};
 
 			var response = await apiService.Post(
-				"http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
 				"/api",
 				"/Customers",
 				customer);
@@ -231,7 +231,7 @@
 			}
 
 			var response2 = await apiService.GetToken(
-				"http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
 				Email,
 				Password);
 

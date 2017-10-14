@@ -287,7 +287,7 @@
             product.ImageArray = imageArray;
 
             var response = await apiService.Put(
-                "http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
                 "/api",
                 "/Products",
                 mainViewModel.Token.TokenType,

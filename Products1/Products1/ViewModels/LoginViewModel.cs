@@ -187,7 +187,7 @@
             }
 
             var response = await apiService.GetToken(
-                "http://productszuluapi.azurewebsites.net", 
+                "http://products1apifjcc.azurewebsites.net", 
                 Email, 
                 Password);
 

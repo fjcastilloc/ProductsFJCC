@@ -128,7 +128,7 @@
 			var mainViewModel = MainViewModel.GetInstance();
 
             var response = await apiService.Delete(
-				"http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
 				"/api",
 				"/Categories",
 				mainViewModel.Token.TokenType,
@@ -166,7 +166,7 @@
             var mainViewModel = MainViewModel.GetInstance();
 
             var response = await apiService.GetList<Category>(
-                "http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
                 "/api", 
                 "/Categories", 
                 mainViewModel.Token.TokenType, 

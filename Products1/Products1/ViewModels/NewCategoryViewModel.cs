@@ -117,7 +117,7 @@
             var mainViewModel = MainViewModel.GetInstance();
 
 			var response = await apiService.Post(
-				"http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
 				"/api",
 				"/Categories",
                 mainViewModel.Token.TokenType,

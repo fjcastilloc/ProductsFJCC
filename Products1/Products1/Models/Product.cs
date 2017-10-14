@@ -44,7 +44,7 @@
                 }
 
                 return string.Format(
-                    "http://productszuluapi.azurewebsites.net/{0}", 
+                    "http://products2backendfjcc.azurewebsites.net/{0}", 
                     Image.Substring(1));
             }
         }

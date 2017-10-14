@@ -61,7 +61,7 @@
             var mainViewModel = MainViewModel.GetInstance();
 
             var response = await apiService.GetList<Ubication>(
-                "http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
                 "/api",
                 "/Ubications",
                 mainViewModel.Token.TokenType,

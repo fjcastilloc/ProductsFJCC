@@ -284,7 +284,7 @@
 			};
 
 			var response = await apiService.Post(
-				"http://productszuluapi.azurewebsites.net",
+                "http://products1apifjcc.azurewebsites.net",
 				"/api",
 				"/Products",
 				mainViewModel.Token.TokenType,
